@@ -1,0 +1,69 @@
+nav{
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 10vh;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+a.active{
+    font-weight: 600;
+    font-style: italic;
+}
+.pro-card{
+    width: 50%;
+    margin: auto;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.pro-card:hover{
+    color: black;
+    border: 2px solid cornflowerblue;
+    transition: 1s linear;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.pro-card p{
+    text-align: center;
+}
+.pro-bg{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 25vh;
+    border-radius: 20px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10PX;
+}
+button{
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30PX;
+}
+button:hover{
+    background-color: rgb(88, 128, 201);
+    letter-spacing: 1px;
+}
+.username{
+    font-size: 18px;
+}
